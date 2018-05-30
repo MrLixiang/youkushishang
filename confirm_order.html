@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="#"/><!--网页的关键字-->
+    <meta name="description" content="#"/><!--网页描述-->
+    <meta name="author" content="李响"/><!--作者-->
+    <link rel="shrotcut icon" href="logo.ico"><!--网页标题的图标-->
+    <title>确认订单</title>
+    <base target="_self"><!--覆盖当前页-->
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/confirm_order.css">
+</head>
+<body>
+<!--header-->
+<div class="header">
+    <div class="top">
+        <div class="top_nav">
+            <div class="welcome">您好，欢迎来到优购时尚商城！</div>
+            <ul>
+                <li><a href="login.html">登录</a></li>
+                <li><a href="register.html">注册</a></li>
+                <li><a href="order.html">我的订单</a></li>
+                <li><a href="">我的维蒂尼</a></li>
+                <li><a href="">帮助中心</a></li>
+                <li><a href="user.html">个人中心</a></li>
+                <li>服务热线：400-163-8888</li>
+            </ul>
+        </div>
+    </div>
+    <div class="main_nav">
+        <div class="nav_bar">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="请输入品牌或商品名称" class="myplace" maxlength="50"><button>搜索</button>
+                </form>
+                <div class="brand_select">
+                    <ul>
+                        <li><a href="javascript:;">箭牌</a></li>
+                        <li><a href="javascript:;">摩恩</a></li>
+                        <li><a href="javascript:;">法恩莎卫浴</a></li>
+                        <li><a href="javascript:;">美标</a></li>
+                        <li><a href="javascript:;">白色恋人</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="cart" id="cart">
+                <a href="shop_cart.html"><img src="img/cart.png" alt="">我的购物车<span>&gt;</span></a>
+            </div>
+            <div class="cart_num">0</div>
+        </div>
+        <div id="sort">
+            <h3>商品分类<span> ></span></h3>
+            <div class="sub_nav">
+                <dl>
+                    <dt>浴室柜</dt>
+                    <dd><a href="pro_list.html">实木浴室柜</a></dd>
+                    <dd><a href="javascript:;">陶瓷浴室柜</a></dd>
+                    <dd><a href="javascript:;">PVC浴室柜</a></dd>
+                    <dd><a href="javascript:;">亚克力浴室柜</a></dd>
+                </dl>
+                <dl>
+                    <dt>浴室柜</dt>
+                    <dd><a href="pro_list.html">实木浴室柜</a></dd>
+                    <dd><a href="javascript:;">陶瓷浴室柜</a></dd>
+                    <dd><a href="javascript:;">PVC浴室柜</a></dd>
+                    <dd><a href="javascript:;">亚克力浴室柜</a></dd>
+                </dl>
+                <dl>
+                    <dt>浴室柜</dt>
+                    <dd><a href="pro_list.html">实木浴室柜</a></dd>
+                    <dd><a href="javascript:;">陶瓷浴室柜</a></dd>
+                    <dd><a href="javascript:;">PVC浴室柜</a></dd>
+                    <dd><a href="javascript:;">亚克力浴室柜</a></dd>
+                </dl>
+            </div>
+        </div>
+        <ul class="nav">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="pro_list.html">实木浴室柜</a></li>
+            <li><a href="###">陶瓷浴室柜</a></li>
+            <li><a href="###">PVC浴室柜</a></li>
+            <li><a href="###">亚克力浴室柜</a></li>
+        </ul>
+    </div>
+</div>
+<!--header end-->
+
+<!--middle-->
+<div class="middle">
+    <div class="confirm_order">
+        <h5>确认订单信息</h5>
+        <p>收货信息</p>
+        <div class="receive_address">
+            <div class="select">
+                <p>杨怡<span>18565557851</span></p>
+                <p>重庆市江北五里店怡心花园1栋8-6</p>
+                <p>重庆市江北五里店怡心花园1栋8-6</p>
+            </div>
+            <div>
+                <p>张国明<span>18565557853</span></p>
+                <p>重庆市南坪万象城B栋601室</p>
+                <p>重庆市南坪万象城B栋601室</p>
+            </div>
+            <div><p>染红<span>18565557852</span></p>
+                <p>重庆市大学城康居西城1组团1栋31-2</p>
+                <p>重庆市大学城康居西城1组团1栋31-2</p>
+            </div>
+            <div class="add_spot">
+                <img src="img/confirm_order03.png" alt="">
+                <a href="address.html">添加地址</a>
+            </div>
+        </div>
+    </div>
+    <div class="shop_list">
+        <h5>商品清单 <a href="shop_cart.html">返回购物车修改商品</a></h5>
+        <form action="#">
+            <div class="total_price">
+                <span>运费： 免运费</span>
+                <span >已享受优惠:</span>
+                <span class="discount">-￥600</span>
+                <span >本组商品金额:</span>
+                <span class="total">￥2976.00</span>
+            </div>
+            <div class="balance_information">
+                <table class="receipt">
+                    <tr>
+                        <td><label><input type="checkbox">开具发票</label>
+                            <a href="###">?</a></td>
+                    </tr>
+                    <tr>
+                        <td>开票方式: <label><input type="radio" name="receipt_style1" disabled><i><s></s></i> <span>纸质发票</span></label>
+                            <label><input type="radio" checked name="receipt_style1" disabled><i><s></s></i><span>电子发票</span></label></td>
+                    </tr>
+                    <tr>
+                        <td>开票方式: <label><input type="radio" name="receipt_style2" checked disabled><i><s></s></i><span>个人</span></label>
+                            <span class=tel_num>收票人手机号: </span> <input type="text" placeholder="填写手机号" class="myplace"></td>
+                    </tr>
+                    <tr>
+                        <td class="company"><label><input type="radio" name="receipt_style2" disabled><i><s></s></i>公司</label></td>
+                    </tr>
+                    <tr>
+                        <td>电子发票开具时间为商品出仓后2-7个工作日，与纸质发票具备同
+                            等法律效力，可作为报销、售后服务凭证。</td>
+                    </tr>
+                    <tr>
+                        <td><button id="savereceiptinfo">保存发票信息</button></td>
+                    </tr>
+                </table>
+                <table class="balance">
+                    <tr>
+                        <td>商品金额：</td>
+                        <td class="total">￥2976.00</td>
+                    </tr>
+                    <tr>
+                        <td>运费：</td>
+                        <td>￥0.00</td>
+                    </tr>
+                    <tr>
+                        <td>活动优惠：</td>
+                        <td>-￥600.00</td>
+                    </tr>
+                    <tr>
+                        <td class="pay_tag">待支付： </td>
+                        <td class="pay">￥2976.00</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="submit_order">
+                <input type="submit" value="提交订单">
+            </div>
+        </form>
+    </div>
+
+</div>
+<!--middle end-->
+
+<!--footer-->
+<div class="footer">
+    <div>
+        <ul>
+            <li><span>多</span><span>品类齐全 轻松购物</span></li>
+            <li><span>快</span><span>多仓急发 极速配送</span></li>
+            <li><span>好</span><span>正品行货 精致服务</span></li>
+            <li><span>省</span><span>天天低价 畅选无忧</span></li>
+        </ul>
+        <div class="footer_nav">
+            <dl>
+                <dt>购物指南</dt>
+                <dd><a href="javascript:;">怎样购物</a></dd>
+                <dd><a href="javascript:;">会员制</a></dd>
+                <dd><a href="javascript:;">积分制度</a></dd>
+                <dd><a href="javascript:;">优惠卷介绍</a></dd>
+                <dd><a href="javascript:;">订单状态说明</a></dd>
+            </dl>
+            <dl>
+                <dt>支付帮助</dt>
+                <dd><a href="javascript:;">货到付款</a></dd>
+                <dd><a href="javascript:;">在线支付</a></dd>
+                <dd><a href="javascript:;">邮政汇款</a></dd>
+                <dd><a href="javascript:;">银行转账</a></dd>
+                <dd><a href="javascript:;">发票说明</a></dd>
+            </dl>
+            <dl>
+                <dt>配送方式</dt>
+                <dd><a href="javascript:;">邮政EMS</a></dd>
+                <dd><a href="javascript:;">普通快递</a></dd>
+            </dl>
+            <dl>
+                <dt>服务条款</dt>
+                <dd><a href="javascript:;">售后服务政策</a></dd>
+                <dd><a href="javascript:;">售后特色服务</a></dd>
+                <dd><a href="javascript:;">退换货说明</a></dd>
+                <dd><a href="javascript:;">服务时效承若</a></dd>
+                <dd><a href="javascript:;">联系客服</a></dd>
+            </dl>
+            <dl>
+                <dt>关于我们</dt>
+                <dd><a href="javascript:;">公司简介</a></dd>
+                <dd><a href="javascript:;">公司公告</a></dd>
+                <dd><a href="javascript:;">招纳贤士</a></dd>
+                <dd><a href="javascript:;">供销商直通车</a></dd>
+                <dd><a href="javascript:;">放心搜</a></dd>
+            </dl>
+            <dl>
+                <dt>联系方式</dt>
+                <dd>邮箱：service@51buy.com</dd>
+                <dd>电话：400-828-0055</dd>
+            </dl>
+        </div>
+    </div>
+    <div class="copyright">
+        Copyright&copy2017-2018  维蒂尼商务有限公司  版权所有
+    </div>
+</div>
+<!--footer end-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/placeholder.js"></script>
+<script src="js/confirm_order.js"></script>
+</body>
+</html>

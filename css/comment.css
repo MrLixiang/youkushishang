@@ -1,0 +1,144 @@
+.middle {
+  width: 1200px;
+  padding: 50px 0 180px 0;
+  margin: 0 auto;
+  /*评价留言*/
+}
+.middle h4 {
+  font-size: 16px;
+  color: #000;
+  text-indent: 14px;
+  border-left: 2px solid #ff0000;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.middle > div:nth-child(2) {
+  overflow: hidden;
+  border: 1px solid #cacaca;
+  border-bottom: transparent;
+  background-color: #e7e7e7;
+}
+.middle > div:nth-child(2) div {
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  line-height: 40px;
+}
+.middle > div:nth-child(2) div:not(:last-child) {
+  border-right: 1px solid #cacaca;
+}
+.middle > div:nth-child(2) div:first-child {
+  width: 194px;
+}
+.middle > div:nth-child(2) div:nth-child(2) {
+  width: 516px;
+}
+.middle > div:nth-child(2) div:last-child {
+  width: 484px;
+}
+.middle ul {
+  border: 1px solid #cacaca;
+}
+.middle ul li table {
+  text-align: center;
+  font-size: 12px;
+  color: #000;
+  border-collapse: collapse;
+}
+.middle ul li table td:first-child {
+  width: 194px;
+  border-right: 1px solid #cacaca;
+}
+.middle ul li table td:nth-child(2) {
+  width: 516px;
+  padding: 20px 0;
+  overflow: hidden;
+  border-right: 1px solid #cacaca;
+}
+.middle ul li table td:nth-child(2) a img {
+  float: left;
+  margin-left: 110px;
+  width: 73px;
+  height: 73px;
+}
+.middle ul li table td:nth-child(2) div {
+  float: left;
+  margin-left: 20px;
+  padding-top: 3px;
+  text-align: left;
+}
+.middle ul li table td:nth-child(2) div p a {
+  line-height: 20px;
+  color: #000;
+}
+.middle ul li table td:nth-child(3) {
+  width: 484px;
+}
+.middle form {
+  width: 1164px;
+  background-color: #e7e7e7;
+  padding: 30px 0 22px 36px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #434343;
+}
+.middle form > div:first-child {
+  float: left;
+}
+.middle form > div:first-child textarea {
+  width: 566px;
+  height: 141px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  outline: none;
+  resize: none;
+  color: #636363;
+}
+.middle form > div:last-child {
+  float: left;
+  margin-left: 166px;
+  line-height: 30px;
+}
+.middle form > div:last-child p:first-child {
+  margin-bottom: 10px;
+}
+.middle form > div:last-child dl {
+  overflow: hidden;
+}
+.middle form > div:last-child dl dt {
+  float: left;
+  margin-right: 20px;
+}
+.middle form > div:last-child dl dd {
+  width: 18px;
+  height: 20px;
+  float: left;
+  margin: 0 6px;
+  vertical-align: middle;
+  overflow: hidden;
+  padding-top: 4px;
+  cursor: pointer;
+  background: url("../img/comment03.png") 0 -32px no-repeat;
+}
+.middle form > div:last-child dl dd.light_on {
+  background-position: 0 0;
+}
+.middle form > div:last-child input,
+.middle form > div:last-child button {
+  width: 68px;
+  height: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #6d2f16;
+  border: none;
+  outline: none;
+  margin: 20px 10px;
+  color: #fff;
+  -webkit-transform: translateX(94px);
+  -moz-transform: translateX(94px);
+  -ms-transform: translateX(94px);
+  -o-transform: translateX(94px);
+  transform: translateX(94px);
+}

@@ -1,0 +1,82 @@
+.middle {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 76px;
+  padding-top: 40px;
+  text-align: center;
+}
+.middle div:first-child {
+  width: 1200px;
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid #505050;
+  text-align: left;
+}
+.middle div:first-child img {
+  float: left;
+  width: 190px;
+  height: 194px;
+  margin-left: 240px;
+  margin-top: 50px;
+}
+.middle div:first-child > div:first-of-type {
+  float: left;
+  margin-left: 90px;
+  margin-top: 74px;
+  /*查看订单  返回支付*/
+}
+.middle div:first-child > div:first-of-type h3 {
+  font-size: 30px;
+  color: #000;
+  font-weight: normal;
+  /*在线支付*/
+}
+.middle div:first-child > div:first-of-type h3 + p {
+  font-size: 16px;
+  color: #7e7e7e;
+  margin-top: 20px;
+  /*收货地址*/
+}
+.middle div:first-child > div:first-of-type h3 + p span:last-child {
+  margin-left: 70px;
+}
+.middle div:first-child > div:first-of-type h3 + p span:first-child {
+  margin-left: 4px;
+}
+.middle div:first-child > div:first-of-type h3 + p + p {
+  font-size: 12px;
+  color: #828282;
+  margin-top: 18px;
+}
+.middle div:first-child > div:first-of-type div {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.middle div:first-child > div:first-of-type div a:not(:last-child) {
+  display: inline-block;
+  width: 86px;
+  height: 28px;
+  border: 1px solid #e5e5e5;
+  color: #999999;
+  line-height: 28px;
+  text-align: center;
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+.middle div:first-child > div:first-of-type div a:last-child {
+  color: #ff0000;
+  margin-left: 32px;
+}
+.middle > a {
+  display: inline-block;
+  width: 174px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #cccccc;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  color: #666666;
+  margin-top: 74px;
+}

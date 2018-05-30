@@ -1,0 +1,300 @@
+.middle {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 46px;
+  padding-bottom: 138px;
+  & > div:first-child {
+    overflow: hidden;
+    border: 1px solid #dddddd;
+    width: 1200px;
+    img {
+      float: left;
+      width: 55px;
+      height: 54px;
+      margin: 26px 26px 0 20px;
+      padding-bottom: 16px;
+      & + div {
+        float: left;
+        p:not(:last-child) {
+          font-size: 14px;
+          color: #000;
+          line-height: 26px;
+          font-weight: bold;
+          &:first-child {
+            line-height: 32px;
+          }
+        }
+        p:nth-child(2) span {
+          color: #ff0000;
+        }
+        p:last-child {
+          font-size: 12px;
+          color: #656666;
+          line-height: 26px;
+          span {
+            color: #ff0000;
+          }
+          a {
+            font-size: 12px;
+            color: #056e7e;
+            margin-left: 116px;
+            position: relative;
+            span {
+              width: 0;
+              height: 0;
+              border-top: 6px solid #056e7e;
+              border-left: 3px solid transparent;
+              border-right: 3px solid transparent;
+              margin-left: 6px;
+              position: absolute;
+              left: 52px;
+              top: 6px;
+            }
+          }
+        }
+      }
+    }
+
+  }
+  /*选择银行卡及支付*/
+  form {
+    width: 1160px;
+    margin-top: 40px;
+    border: 1px solid #e6e6e6;
+    padding-top: 36px;
+    padding-right: 40px;
+    h4 {
+      font-size: 14px;
+      color: #ff0000;
+      display: inline-block;
+      width: 176px;
+      height: 38px;
+      text-align: center;
+      line-height: 38px;
+      border: 1px solid #e6e6e6;
+      border-bottom: transparent;
+      border-left: transparent;
+      position: relative;
+
+      /*您可以选择支付方式的边框调整*/
+      &:before {
+        content: "";
+        width: 984px;
+        height: 1px;
+        background-color: #e6e6e6;
+        display: inline-block;
+        position: absolute;
+        top: 38px;
+        left: 176px;
+      }
+    }
+    & > div:first-of-type {
+      padding-left: 42px;
+      border: 1px solid #e6e6e6;
+      border-top: transparent;
+      border-left: transparent;
+      padding-bottom: 20px;
+      h5 {
+        font-size: 14px;
+        color: #000;
+        line-height: 34px;
+        display: inline-block;
+        width: 1080px;
+        height: 34px;
+        border-bottom: 1px dotted #e6e6e6;
+        margin: 0 auto;
+        margin-top: 10px;
+        font-weight: normal;
+      }
+      ul {
+        overflow: hidden;
+        li {
+          float: left;
+          width: 192px;
+          height: 40px;
+          border: 1px solid #e6e6e6;
+          margin: 14px 32px;
+          margin-left: 0;
+          position: relative;
+          cursor: pointer;
+
+          /*改变radio的选中样式*/
+          span{
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            color: #ff0f0f;
+            border: 1px solid #ff0000;
+            font-size: 20px;
+            text-indent: 1.5px;
+            line-height: 9px;
+            font-weight: bold;
+            vertical-align: middle;
+            position: absolute;
+            left: 9px;
+            top: 12px;
+            display: none;
+          }
+          input[type=radio] {
+            vertical-align: 94%;
+            margin-left: 10px;
+            &:checked{
+              opacity: 0;
+              &+span{
+                display: inline-block;
+              }
+            }
+          }
+          img {
+            margin-left: 20px;
+            width: 149px;
+            height: 40px;
+          }
+        }
+      }
+    }
+    & > div:nth-child(3) {
+      /*支付金额显示部分*/
+      height: 60px;
+      width: 1200px;
+      overflow: hidden;
+      border: 1px solid #e6e6e6;
+      border-top: transparent;
+      border-left: transparent;
+      div:first-child {
+        float: left;
+        margin-left: 56px;
+        position: relative;
+        img{
+          width: 120px;
+          height: 30px;
+          vertical-align: middle;
+        }
+        span:not(:first-of-type){
+          font-size: 14px;
+          color: #000;
+          line-height: 60px;
+          &:first-of-type{
+            margin-left: 54px;
+          }
+        }
+        span:first-of-type{
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          color: #ff0f0f;
+          border: 1px solid #ff0000;
+          font-size: 20px;
+          text-indent: 2px;
+          line-height: 8px;
+          font-weight: bold;
+          vertical-align: middle;
+          position: absolute;
+          left: -1px;
+          top: 23px;
+          display: none;
+
+        }
+        input{
+          vertical-align: middle;
+          margin-right: 24px;
+          &:checked {
+            opacity: 0;
+            & + span{
+              display: inline-block;
+            }
+          }
+        }
+      }
+      div:last-child {
+        float: right;
+        font-size: 14px;
+        color: #666666;
+        line-height: 60px;
+        span:last-child{
+          font-size: 18px;
+          color: #ff0000;
+          margin-right: 60px;
+        }
+      }
+    }
+    & > div:nth-child(4){
+      p:first-child{
+        font-size: 12px;
+        color: #000;
+        margin-top: 16px;
+        span{
+          display: inline-block;
+          width: 14px;
+          height: 14px;
+          border-radius: 50%;
+          color: #fff;
+          background-color: #11cd6e;
+          text-align: center;
+          line-height: 14px;
+          font-weight: bold;
+          margin-left: 54px;
+          margin-right: 12px;
+        }
+      }
+      p:nth-child(2){
+        font-size: 14px;
+        color: #000;
+        margin-left: 54px;
+        margin-top: 20px;
+      }
+      .pwd{
+        padding: 4px 0;
+        display: inline-block;
+        border: 1px solid #b1b0b0;
+        margin-left: 48px;
+        margin-top: 20px;
+        input{
+          width: 30px;
+          height: 22px;
+          border: none;
+          outline: none;
+          text-align: center;
+          line-height: 22px;
+          vertical-align: middle;
+          &:not(:last-child){
+            border-right: 1px solid #b1b0b0;
+          }
+          &:first-child,input:last-child{
+            width: 30px;
+            height: 22px;
+            padding-left: 4px;
+          }
+        }
+      }
+      a{
+        font-size: 12px;
+        color: #666666;
+        margin-left: 10px;
+      }
+      p:last-child{
+        font-size: 12px;
+        color: #999999;
+        margin-left: 50px;
+        margin-top: 10px;
+      }
+    }
+    button{
+      width: 160px;
+      height: 40px;
+      text-align: center;
+      font-size: 20px;
+      line-height: 40px;
+      color: #fff;
+      background-color: #ff0000;
+      border: none;
+      outline: none;
+      margin: 40px 0 10px 46px;
+      cursor: pointer;
+    }
+  }
+}
+
+
+
+

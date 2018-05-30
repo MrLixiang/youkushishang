@@ -1,0 +1,295 @@
+.middle {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.middle form > div:first-child {
+  background-color: #dcdcdc;
+  height: 40px;
+  font-size: 0;
+  overflow: hidden;
+  width: 100%;
+}
+.middle form > div:first-child span {
+  display: inline-block;
+  font-size: 12px;
+  color: #000;
+  line-height: 40px;
+  text-align: center;
+}
+.middle form > div:first-child span:first-child {
+  width: 64px;
+  text-align: right;
+}
+.middle form > div:first-child span:first-child input {
+  margin-right: 4px;
+  vertical-align: -2px;
+  cursor: pointer;
+}
+.middle form > div:first-child span:nth-child(2) {
+  width: 582px;
+  text-align: left;
+  text-indent: 132px;
+}
+.middle form > div:first-child span:nth-child(3) {
+  width: 172px;
+}
+.middle form > div:first-child span:nth-child(4) {
+  width: 150px;
+}
+.middle form > div:first-child span:nth-child(5) {
+  width: 118px;
+}
+.middle form > div:first-child span:nth-child(6) {
+  width: 112px;
+}
+.middle form #orderList {
+  /*not去除掉对结算table的影响*/
+}
+.middle form #orderList table:not(.balance) {
+  width: 1200px;
+  /*运费部分*/
+}
+.middle form #orderList table:not(.balance) input {
+  background-color: transparent;
+}
+.middle form #orderList table:not(.balance) tr:first-child {
+  display: table;
+}
+.middle form #orderList table:not(.balance) tr:first-child td:first-child {
+  text-align: right;
+  vertical-align: middle;
+  padding-left: 19px;
+}
+.middle form #orderList table:not(.balance) tr:first-child td:first-child + td {
+  line-height: 52px;
+  font-size: 12px;
+  color: #000;
+  text-indent: 4px;
+  position: relative;
+  /*白色恋人官方旗舰店下面的线*/
+}
+.middle form #orderList table:not(.balance) tr:first-child td:first-child + td img {
+  width: 14px;
+  margin-left: 12px;
+  vertical-align: -2px;
+}
+.middle form #orderList table:not(.balance) tr:first-child td:first-child + td:after {
+  content: "";
+  width: 1200px;
+  height: 2px;
+  background-color: #aaaaaa;
+  position: absolute;
+  top: 40px;
+  left: -40px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) {
+  display: table;
+  border: 1px solid #d3d3d3;
+  background-color: #fafce5;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td {
+  color: #000;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:not( :nth-child(2)) {
+  font-size: 12px;
+  text-align: center;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:first-child {
+  width: 35px;
+  text-align: right;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) {
+  width: 380px;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) div:first-child {
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 30px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) div:first-child p {
+  font-size: 12px;
+  color: #6a6a6a;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) div:first-child p span:first-child {
+  display: inline-block;
+  width: 43px;
+  height: 27px;
+  color: #fff;
+  text-align: center;
+  margin-right: 2px;
+  background: url("../img/cart02.png") no-repeat;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) div:first-child p span:first-child + span {
+  color: #ff0000;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) div:first-child p a {
+  font-size: 12px;
+  color: #000;
+  margin-left: 6px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) div:nth-child(2) {
+  overflow: hidden;
+  /*【送装服务】送货上门安装的CSS部分*/
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) div:nth-child(2) > a {
+  display: block;
+  float: left;
+  width: 110px;
+  height: 110px;
+  margin-left: 40px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) div:nth-child(2) > a img {
+  width: 110px;
+  height: 110px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) div:nth-child(2) > div {
+  float: left;
+  margin-left: 20px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) div:nth-child(2) > div p > a {
+  font-size: 12px;
+  color: #000;
+  line-height: 18px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) div:nth-child(2) > div p > a span {
+  color: #707070;
+  margin-left: 22px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) div:nth-child(2) > div p img {
+  width: 21px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) div:nth-child(2) > div p:last-child {
+  color: #8e8e8e;
+  margin-top: 20px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(2) div:nth-child(2) + p {
+  font-size: 12px;
+  color: #8e8e8e;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(3) {
+  width: 330px;
+  text-align: left;
+  vertical-align: top;
+  padding-top: 72px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(4) {
+  width: 172px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(5) {
+  width: 100px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(5) input {
+  border: none;
+  text-align: center;
+  outline: none;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(6) {
+  width: 118px;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(2) td:nth-child(7) {
+  width: 134px;
+  cursor: pointer;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(3) {
+  font-size: 12px;
+  color: #8e8e8e;
+  height: 42px;
+  vertical-align: bottom;
+}
+.middle form #orderList table:not(.balance) tr:nth-child(3) span {
+  display: inline-block;
+  width: 43px;
+  height: 18px;
+  line-height: 18px;
+  border-radius: 2px;
+  color: #fff;
+  text-align: center;
+  margin-right: 2px;
+  background-color: #ff6701;
+  margin-left: 32px;
+}
+.middle form > div:last-child {
+  margin-top: 20px;
+  width: 1200px;
+  overflow: hidden;
+}
+.middle form > div:last-child .balance {
+  float: left;
+  height: 50px;
+  width: 1100px;
+  border-collapse: collapse;
+  font-size: 12px;
+  color: #000;
+  border: 1px solid #d3d3d3;
+}
+.middle form > div:last-child .balance tr:first-child td:first-child {
+  text-align: right;
+  width: 35px;
+}
+.middle form > div:last-child .balance tr:first-child td:first-child .check_all {
+  vertical-align: middle;
+  cursor: pointer;
+}
+.middle form > div:last-child .balance tr:first-child td:nth-child(2) {
+  width: 624px;
+}
+.middle form > div:last-child .balance tr:first-child td:nth-child(2) span {
+  margin: 0 5px;
+  line-height: 50px;
+  cursor: pointer;
+}
+.middle form > div:last-child .balance tr:first-child td:nth-child(2) label {
+  cursor: pointer;
+}
+.middle form > div:last-child .balance tr:first-child td:nth-child(2) + td {
+  text-align: right;
+  padding-right: 24px;
+}
+.middle form > div:last-child .balance tr:first-child td:nth-child(2) + td p {
+  display: inline-block;
+}
+.middle form > div:last-child .balance tr:first-child td:nth-child(2) + td p span {
+  color: #ff0000;
+}
+.middle form > div:last-child .balance tr:first-child td:nth-child(2) + td p:last-child {
+  margin-left: 20px;
+}
+.middle form > div:last-child .balance tr:first-child td:nth-child(2) + td p:last-child span {
+  font-size: 18px;
+}
+.middle form > div:last-child .balance tr:first-child td:nth-child(3) {
+  width: 624px;
+}
+.middle form > div:last-child .balance tr:first-child td:nth-child(4) {
+  width: 134px;
+}
+.middle form > div:last-child .balance tr:last-child td {
+  text-align: right;
+}
+.middle form > div:last-child .balance tr:last-child td span {
+  margin-left: 26px;
+}
+.middle form > div:last-child .balance tr:last-child td:last-child {
+  padding-right: 24px;
+}
+.middle form > div:last-child a {
+  display: inline-block;
+  width: 100px;
+  height: 52px;
+  background-color: #ff0000;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 48px;
+  border: none;
+  outline: none;
+  float: right;
+}

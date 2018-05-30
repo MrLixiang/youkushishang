@@ -1,0 +1,133 @@
+.header input {
+  width: 402px!important;
+  height: 55px!important;
+}
+.middle {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.middle div:first-child {
+  float: left;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+.middle div:first-child img {
+  width: 487px;
+  height: 501px;
+}
+.middle .login {
+  width: 400px;
+  height: 480px;
+  float: left;
+  margin-top: 80px;
+  margin-left: 120px;
+  border: 1px solid #aaaaaa;
+}
+.middle .login p {
+  border-bottom: 1px solid #aaaaaa;
+}
+.middle .login p a {
+  font-size: 20px;
+  color: #000;
+  line-height: 50px;
+}
+.middle .login p a.current {
+  color: #ff0000;
+}
+.middle .login p a:first-child {
+  margin-left: 32px;
+  margin-right: 178px;
+}
+.middle .login form {
+  padding: 0 30px;
+  overflow: hidden;
+}
+.middle .login form label {
+  font-size: 20px;
+  color: #010101;
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+}
+.middle .login form input {
+  width: 208px;
+  height: 40px;
+  margin-top: 32px;
+  font-size: 20px;
+  outline: none;
+  text-indent: 10px;
+}
+.middle .login form input:nth-child(6) {
+  width: 78px;
+}
+.middle .login form input:nth-child(6) + img {
+  vertical-align: bottom;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.middle .login form input:nth-child(6) + img + a {
+  font-size: 12px;
+  color: #011e1c;
+  vertical-align: bottom;
+  margin-left: 6px;
+}
+.middle .login form .identify_code {
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  vertical-align: bottom;
+  margin-left: 6px;
+  background-image: url("../img/erweima.png");
+  font-size: 26px;
+  color: #011e1c;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.middle .login form .identify_code + a {
+  font-size: 12px;
+  color: #011e1c;
+  vertical-align: bottom;
+  margin-left: 6px;
+  font-weight: bold;
+}
+.middle .login form button {
+  display: block;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  background-color: #ff0000;
+  margin: 30px auto;
+  border: none;
+  cursor: pointer;
+}
+.middle .login form a:nth-child(10) {
+  font-size: 12px;
+  color: #464646;
+  margin-left: 20px;
+}
+.middle .login form a:nth-child(10) + a {
+  font-size: 12px;
+  color: #464646;
+  margin-left: 190px;
+}
+.middle .login form div {
+  height: 25px;
+  text-align: center;
+  margin-top: 24px;
+}
+.middle .login form div a {
+  font-size: 12px;
+  color: #464646;
+  padding: 0 16px;
+}
+.middle .login form div a img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+}

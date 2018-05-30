@@ -1,0 +1,303 @@
+.middle{
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  form{
+    &>div:first-child{
+      background-color: #dcdcdc;
+      height: 40px;
+      font-size: 0;
+      overflow: hidden;
+      width: 100%;
+      span{
+        display: inline-block;
+        font-size: 12px;
+        color: #000;
+        line-height: 40px;
+        text-align: center;
+        &:first-child{
+          width: 64px;
+          text-align: right;
+          input {
+            margin-right: 4px;
+            vertical-align: -2px;
+            cursor: pointer;
+          }
+        }
+        &:nth-child(2){
+          width: 582px;
+          text-align: left;
+          text-indent: 132px;
+        }
+        &:nth-child(3){
+          width: 172px;
+        }
+        &:nth-child(4){
+          width: 150px;
+        }
+        &:nth-child(5){
+          width: 118px;
+        }
+        &:nth-child(6){
+          width: 112px;
+        }
+      }
+    }
+    #orderList{
+      /*not去除掉对结算table的影响*/
+      table:not(.balance){
+        width: 1200px;
+        input{
+          background-color: transparent;
+        }
+        tr:first-child{
+          display: table;
+          td:first-child{
+            text-align: right;
+            vertical-align: middle;
+            padding-left: 19px;
+            &+td{
+              line-height: 52px;
+              font-size: 12px;
+              color: #000;
+              text-indent: 4px;
+              position: relative;
+              img{
+                width: 14px;
+                margin-left: 12px;
+                vertical-align: -2px;
+              }
+              /*白色恋人官方旗舰店下面的线*/
+              &:after{
+                content: "";
+                width: 1200px;
+                height: 2px;
+                background-color: #aaaaaa;
+                position: absolute;
+                top:40px;
+                left: -40px;
+              }
+            }
+          }
+        }
+        tr:nth-child(2){
+          display: table;
+          border: 1px solid #d3d3d3;
+          background-color: #fafce5;
+          td{
+            &:not(:nth-child(2)){
+              font-size: 12px;
+              text-align: center;
+            }
+            color: #000;
+            &:first-child{
+              width: 35px;
+              text-align: right;
+            }
+            &:nth-child(2){
+              width: 380px;
+              display: inline-block;
+              padding-bottom: 20px;
+              div:first-child{
+                display: inline-block;
+                padding-top: 12px;
+                padding-bottom: 30px;
+                p{
+                  font-size: 12px;
+                  color: #6a6a6a;
+                  span:first-child{
+                    display: inline-block;
+                    width: 43px;
+                    height: 27px;
+                    color: #fff;
+                    text-align: center;
+                    margin-right: 2px;
+                    background:url("../img/cart02.png") no-repeat;
+                    &+span{
+                      color: #ff0000;
+                    }
+                  }
+                  a{
+                    font-size: 12px;
+                    color: #000;
+                    margin-left: 6px;
+                  }
+                }
+              }
+              div:nth-child(2){
+                overflow: hidden;
+                &>a{
+                  display: block;
+                  float: left;
+                  width: 110px;
+                  height: 110px;
+                  margin-left: 40px;
+                  img{
+                    width: 110px;
+                    height: 110px;
+                  }
+                }
+                &>div{
+                  float: left;
+                  margin-left: 20px;
+                  p{
+                    &>a{
+                      font-size: 12px;
+                      color: #000;
+                      line-height: 18px;
+                      span{
+                        color: #707070;
+                        margin-left: 22px;
+                      }
+                    }
+                    img{
+                      width: 21px;
+                      height: 20px;
+                      margin-right: 10px;
+                      vertical-align: top;
+                    }
+                    &:last-child{
+                      color: #8e8e8e;
+                      margin-top: 20px;
+                    }
+                  }
+                }
+                /*【送装服务】送货上门安装的CSS部分*/
+                &+p{
+                  font-size: 12px;
+                  color: #8e8e8e;
+                  margin-top: 20px;
+                  margin-left: 60px;
+                }
+              }
+            }
+            &:nth-child(3){
+              width: 330px;
+              text-align: left;
+              vertical-align: top;
+              padding-top: 72px;
+            }
+            &:nth-child(4){
+              width: 172px;
+            }
+            &:nth-child(5){
+              width: 100px;
+              input{
+                border: none;
+                text-align: center;
+                outline: none;
+              }
+            }
+            &:nth-child(6){
+              width: 118px;
+            }
+            &:nth-child(7){
+              width: 134px;
+              cursor: pointer;
+            }
+          }
+        }
+        /*运费部分*/
+        tr:nth-child(3){
+          font-size: 12px;
+          color: #8e8e8e;
+          height: 42px;
+          vertical-align: bottom;
+          & span{
+            display: inline-block;
+            width: 43px;
+            height: 18px;
+            line-height: 18px;
+            border-radius: 2px;
+            color: #fff;
+            text-align: center;
+            margin-right: 2px;
+            background-color: #ff6701;
+            margin-left: 32px;
+          }
+        }
+      }
+    }
+    &>div:last-child{
+      margin-top: 20px;
+      width: 1200px;
+      overflow: hidden;
+      .balance{
+        float: left;
+        height: 50px;
+        width: 1100px;
+        border-collapse: collapse;
+        font-size: 12px;
+        color: #000;
+        border: 1px solid #d3d3d3;
+        tr:first-child{
+          td:first-child{
+            text-align: right;
+            width: 35px;
+            .check_all{
+              vertical-align: middle;
+              cursor: pointer;
+            }
+          }
+          td:nth-child(2){
+            width: 624px;
+            span{
+              margin: 0 5px;
+              line-height: 50px;
+              cursor: pointer;
+            }
+            label{
+              cursor: pointer;
+            }
+            &+td{
+              text-align: right;
+              padding-right: 24px;
+              p{
+                display: inline-block;
+                span{
+                  color: #ff0000;
+                }
+                &:last-child{
+                  margin-left: 20px;
+                  span{
+                    font-size: 18px;
+                  }
+                }
+              }
+            }
+          }
+          td:nth-child(3){
+            width: 624px;
+          }
+          td:nth-child(4){
+            width: 134px;
+          }
+        }
+        tr:last-child{
+          td{
+            text-align: right;
+            span{
+              margin-left: 26px;
+            }
+            &:last-child{
+              padding-right: 24px;
+            }
+          }
+        }
+      }
+      a{
+        display: inline-block;
+        width: 100px;
+        height: 52px;
+        background-color: #ff0000;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        line-height: 48px;
+        border: none;
+        outline: none;
+        float: right;
+      }
+    }
+  }
+}
